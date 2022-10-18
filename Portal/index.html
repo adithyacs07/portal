@@ -9,60 +9,77 @@
   </head>
 
   <body>
-    <center>
-      <img
-        src="/img/College_Logo_3.png"
-        alt="Sahyadri logo"
-        width="50%"
-        height="auto"
-      />
-    </center>
-    <br />
-    <br />
-    <div class="inputs">
-      <label for="name">Name </label>
-      <input
-        type="text"
-        name="name"
-        id="NameInput"
-        placeholder="Enter your name here"
-      />
+    <div class="container">
+      <center>
+        <img src="/img/College_Logo_3.png" alt="Sahyadri logo" class="logo" />
+      </center>
       <br />
       <br />
-      <label for="branch">Branch</label>
-      <input
-        type="text"
-        name="branch"
-        id="BranchInput"
-        placeholder="Enter your branch"
-      />
-      <br />
-      <br />
-      <label for="mail">email </label>
-      <input
-        type="email"
-        name="mail"
-        id="MailInput"
-        placeholder="Entter your college Email"
-      />
-      <br />
-      <br />
-      <label for="USN">USN </label>
-      <input
-        type="text"
-        name="USN"
-        id="USNinput"
-        placeholder="Enter your USN"
-      />
-      <br />
-      <br />
-      <label for="AdmissionForm"></label>
-      <input type="file" name="AdmissionForm" id="Form" />
-      <br />
-      <br />
+      <div class="inputs">
+        <div>
+          <label for="name">Name </label>
+          <input
+            type="text"
+            name="name"
+            id="NameInput"
+            placeholder="Enter your name here"
+          />
+        </div>
+        <br />
+        <div>
+          <label for="branch">Branch</label>
+          <select name="branch" id="BranchInput">
+            <option value="ComputerScienceEngineering">
+              Computer Science Engineering
+            </option>
+            <option value="AI&ML">AI & ML</option>
+            <option value="DataScience">Data Science</option>
+            <option value="CyberSecurity">Cyber Security</option>
+            <option value="Information Science & Enginnering">
+              Information Science & Enginnering
+            </option>
+            <option value="ElectronicsAndCommunication">
+              Electronics And Communication
+            </option>
+            <option value="MechanicalEngineering">
+              Mechanical Engineering
+            </option>
+            <option value="AI&DS">AI & DS</option>
+            <option value="RoboticsAndAutomation">
+              Robotics And Automation
+            </option>
+          </select>
+        </div>
+        <br />
+        <div>
+          <label for="mail">email </label>
+          <input
+            type="email"
+            name="mail"
+            id="MailInput"
+            placeholder="Entter your college Email"
+          />
+        </div>
+        <br />
+        <div>
+          <label for="USN">USN </label>
+          <input
+            type="text"
+            name="USN"
+            id="USNinput"
+            placeholder="Enter your USN"
+          />
+        </div>
+        <br />
+        <div>
+          <label for="AdmissionForm"></label>
+          <input type="file" name="AdmissionForm" id="Form" />
+        </div>
+        <br />
+      </div>
+      <center>
+        <button class="button">submit</button>
+      </center>
     </div>
-    <center>
-      <button class="button">submit</button>
-    </center>
   </body>
 </html>
